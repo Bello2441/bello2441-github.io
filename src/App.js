@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/Home';
 import {Route, BrowserRouter as Router, Switch, Link} from 'react-router-dom';
 import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -17,11 +18,15 @@ function App() {
             <li>
               <Link to="/about">AboutMe</Link>
             </li>
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
           </ul>
         </nav>
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/about" component={AboutMe}/>
+          <Route path="/projects" component={Projects}/>
         </Switch>
       </div>
     </Router>
