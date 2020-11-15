@@ -1,22 +1,17 @@
 import React from 'react';
 
-class Projects extends Component {
-    state = { 
-        project : ['Project 1', 'Project 2', 'Project 3']
-     }
-
-    render() { 
-        const proj = this.state.projects.map((project) => {
-         console.log(project);
-     });
-     console.log(proj);
-        return ( 
-            <section>
-                <h1>Projects I have done</h1>
-            
-            </section>
-            );
-    }
+function Projects() {
+    return (
+        <nav>
+        <h1 className="App">Projects I have done</h1>
+            <ul>
+                <li>
+                    <a href="https://github.com/Bello2441/intro-to-web-development">Project 1</a>
+                    <p>This was my first react project for my Topics of Computer Science class.</p>
+                </li>
+            </ul>
+        </nav>
+    );
 }
- 
+
 export default Projects;
