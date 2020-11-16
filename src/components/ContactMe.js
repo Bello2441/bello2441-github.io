@@ -8,7 +8,9 @@ class Contact extends Component {
     render() { 
         return (  
             <form>
-                
+                <label>
+                    Name
+                </label>
             </form>
         );
     }
