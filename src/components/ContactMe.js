@@ -1,16 +1,28 @@
 import React from 'react';
 
-class Contact extends Component {
+class Contact extends React.Component {
     state = { 
         name : "",
-        url : ""
+        email : ""
      }
+
+     
     render() { 
         return (  
-            <form>
-                <label>
+            <form className="container">
+                <label className="nameplate">
                     Name
+                    <input type="text" name="name" />
                 </label>
+                <label className="nameplate">
+                    Email
+                    <input type="text" email="name" />
+                </label>
+                <label className="nameplate">
+                    Have a message? Leave one here!
+                    <input type="text" />
+                </label>
+                <button> Submit </button>
             </form>
         );
     }

@@ -5,6 +5,7 @@ import Home from './components/Home';
 import {Route, BrowserRouter as Router, Switch, Link} from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
+import ContactMe from './components/ContactMe';
 
 function App() {
   return (
@@ -21,12 +22,16 @@ function App() {
             <li>
               <Link to="/projects">Projects</Link>
             </li>
+            <li>
+              <Link to="/Contact_Me">Contact Me</Link>
+            </li>
           </ul>
         </nav>
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/about" component={AboutMe}/>
           <Route path="/projects" component={Projects}/>
+          <Route path="/Contact_Me" component={ContactMe}/>
         </Switch>
       </div>
     </Router>
