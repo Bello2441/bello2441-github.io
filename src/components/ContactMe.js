@@ -5,11 +5,14 @@ class Contact extends React.Component {
         name : "",
         email : ""
      }
+handleClick() {
+    alert.log('Hey, {name} your message was sent successfully');
+}
 
-     
     render() { 
         return (  
             <form className="container">
+               <h1 className="App">Contact Information</h1> 
                 <label className="nameplate">
                     Name
                     <input type="text" name="name" />
@@ -22,7 +25,7 @@ class Contact extends React.Component {
                     Have a message? Leave one here!
                     <input type="text" />
                 </label>
-                <button> Submit </button>
+                <button onClick={() => this.handleClick()}> Submit </button>
             </form>
         );
     }
