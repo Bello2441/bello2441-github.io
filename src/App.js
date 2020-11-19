@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div>
         <nav>
-          <ul className="Navstyle">
+          <ul>
             <li>
               <Link to="/">Home</Link>
             </li>

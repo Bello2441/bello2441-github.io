@@ -21,14 +21,17 @@ handleClick() {
                     Email
                     <input type="text" email="name" />
                 </label>
-                <label className="nameplate">
-                    Have a message? Leave one here!
-                    <input type="text" />
+                <label>
+                    Got a message? Write it here.
+                    <textarea>
+                        
+                    </textarea>
                 </label>
                 <button onClick={() => this.handleClick()}> Submit </button>
             </form>
         );
     }
 }
+
  
 export default Contact;

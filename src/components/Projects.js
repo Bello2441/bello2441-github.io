@@ -10,7 +10,9 @@ function Projects() {
             <ul>
                 <li>
                     <Link to="/projects/project1">Project 1</Link>
-                    <p>This was my first react project for my Topics of Computer Science class.</p>
+                    <p className="moreColor"> 
+                    This was my first react project for my Topics of Computer Science class.
+                    </p>
                 </li>
             </ul>
         </nav>
