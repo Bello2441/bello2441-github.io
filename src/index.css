@@ -28,6 +28,7 @@ code {
   padding: 1rem;
   display: flex;
   justify-content: center;
+  color: #dddddd;
 }
 
 .homeImg {
@@ -59,12 +60,16 @@ ul {
   background-color: #333;
 }
 
-.moreColor {
-  color: #dddddd;
+p {
+  color: whitesmoke;
 }
 
 .headStyle {
   display: block;
   padding: 10px 15px;
   background-color: rgb(69, 72, 235);
+}
+
+.About {
+  background-color: yellowgreen;
 }

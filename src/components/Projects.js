@@ -10,14 +10,14 @@ function Projects() {
             <ul>
                 <li>
                     <Link to="/projects/project1">Project 1</Link>
-                    <p className="moreColor"> 
-                    This was my first react project for my Topics of Computer Science class.
-                    </p>
                 </li>
             </ul>
+            <p> 
+                This was my first react project for my Topics of Computer Science class.
+            </p>
         </nav>
         <Switch>
-            <Route path="/projects/project1" component={Project_1}/>
+            <Route path="/projects/project1" exact component={Project_1}/>
         </Switch>
         </Router>
     );
