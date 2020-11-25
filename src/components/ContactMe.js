@@ -29,8 +29,8 @@ handleNameChange = event => {
                     Email :
                     <input type="text" email="name" />
                 </label>
-                <label className="nameplate">
-                    Got a message? Write it here. 
+                <p>Got a message? Write it here :</p>
+                <label className="nameplate"> 
                     <textarea>
                         
                     </textarea>

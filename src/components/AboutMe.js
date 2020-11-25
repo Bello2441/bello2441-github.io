@@ -27,7 +27,7 @@ function About() {
                 My hobbies are to watch baseball, play some videogames and study Japanese when I have the time. Right now, I am watching a Russian TV mini series called "The Meeting Place can not be Changed".
             </p>
             <p>
-                If you reader ate bored with something to watch, then I would give this a look. It's about bad cop who believes a criminal should just be in jail and a good cop who believes that people can change. 
+                If you reader are bored and want something to watch, then I would give this a look. It's about bad cop who believes a criminal should just be in jail and a good cop who believes that people can change. 
             <a href="https://www.youtube.com/watch?v=X7Kr8g8wps0" alt="Russian_TV_series"> The Meeting Place cannot be Changed episode 1</a>
             </p>
             <p>
