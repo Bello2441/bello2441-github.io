@@ -11,3 +11,16 @@ const styles = {
                     <div style={styles.bounce}>
                     </div>
                 </StyleRoot>
+
+<h1 className="animate__animated animate__bounce my-element">What's up viewer!!</h1>
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+.my-element {
+  display : block;
+  margin : 0 0.5rem;
+
+  animation : bounce;
+  animation-duration: 2s;
+}
