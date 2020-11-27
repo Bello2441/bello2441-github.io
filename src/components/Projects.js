@@ -1,15 +1,15 @@
 import React from 'react';
 import {Route, BrowserRouter as Router, Switch, Link} from 'react-router-dom';
-import Project_1 from './subpages/Project_1';
+import Project_1 from './subpages/CMP464-HW1';
 
 function Projects() {
     return (
         <Router>
         <nav>
-        <h1 className="App">Projects I have done</h1>
+        <h1 className="projectstyle">Projects I have done</h1>
             <ul>
                 <li>
-                    <Link to="/projects/project1">Project 1</Link>
+                    <Link to="/projects/project1">CMP464-HW1</Link>
                 </li>
             </ul>
             <p> 
