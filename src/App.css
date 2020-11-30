@@ -37,6 +37,10 @@
   }
 }*/
 
-.txt {
-  color: white;
+.bar {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
+

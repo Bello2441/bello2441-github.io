@@ -1,8 +1,39 @@
 import React from 'react';
+import logo from './the_hulk.jpeg';
+import { Spring } from 'react-spring/renderprops';
 
-function Home() {
-    return <h1>Home page</h1>
+class Home extends React.Component {
+    render() {
+        return (
+        <div className="App">
+            <h1 className="headStyle">Home page</h1>
+            <p className="p-color">Hello, my name is Rosenberg Bello and this is my portfolio.</p>
+            <p className="p-color">This is my first multi-page website using react!</p>
+            <p className="p-color">I hope anyone viewing enjoys what I did</p> 
+            <p className="p-color">and I will update as soon as I can.</p>    
+            <img className="homeImg" src={logo} alt="image_of_me" />
+            <Spring
+            from={{ opacity: 0, marginTop: -500}}
+            to={{ opacity: 1, marginTop : 0}}
+        >
+            {props => (
+                <div style={props}>
+                    <div style={c1Style}>
+                        <h1>Hello Viewer! How you doing today?</h1>
+                    </div>
+                </div>
+            )}
+        </Spring>
+        </div>
+        
+        );
+    }
+}
 
+const c1Style ={
+    background : 'red',
+    color : 'yellow',
+    padding : '1.5rem'
 }
 
 export default Home;
