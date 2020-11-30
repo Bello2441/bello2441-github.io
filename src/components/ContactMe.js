@@ -25,16 +25,20 @@ handleNameChange = event => {
                     Name :
                     <input type="text" name="name" onChange={this.handleNameChange}/>
                 </label>
+                <div className="space">
                 <label className="nameplate">
                     Email :
                     <input type="text" email="name" />
                 </label>
+                </div>
                 <p>Got a message? Write it here :</p>
+                <div>
                 <label className="nameplate"> 
                     <textarea>
                         
                     </textarea>
                 </label>
+                </div>
                 <button onClick={this.handleClick}> Submit </button>
             </form>
         );
