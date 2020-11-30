@@ -7,10 +7,10 @@ class Home extends React.Component {
         return (
         <div className="App">
             <h1 className="headStyle">Home page</h1>
-            <p>Hello, my name is Rosenberg Bello and this is my portfolio.</p>
-            <p>This is my first multi-page website using react!</p>
-            <p>I hope anyone viewing enjoys what I did</p> 
-            <p>and I will update as soon as I can.</p>    
+            <p className="p-color">Hello, my name is Rosenberg Bello and this is my portfolio.</p>
+            <p className="p-color">This is my first multi-page website using react!</p>
+            <p className="p-color">I hope anyone viewing enjoys what I did</p> 
+            <p className="p-color">and I will update as soon as I can.</p>    
             <img className="homeImg" src={logo} alt="image_of_me" />
             <Spring
             from={{ opacity: 0, marginTop: -500}}
