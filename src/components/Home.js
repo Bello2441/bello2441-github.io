@@ -13,13 +13,25 @@ class Home extends React.Component {
             <p className="p-color">and I will update as soon as I can.</p>    
             <img className="homeImg" src={logo} alt="image_of_me" />
             <Spring
-            from={{ opacity: 0, marginTop: -500}}
-            to={{ opacity: 1, marginTop : 0}}
+            from={{ opacity: 0}}
+            to={{ opacity: 1}}
+            confidg={{delay : 2000, duration : 2000}}
         >
             {props => (
                 <div style={props}>
-                    <div style={c1Style}>
+                    <div style={c2Style}>
                         <h1>Hello Viewer! How you doing today?</h1>
+                        <Spring 
+                        from = {{number : 0}}
+                        to = {{number : 86400}}
+                        config={{duration : 86400000}}
+                        >
+                            {props => (
+                                <div style={props}>
+                                    <h1 style={counter}>{props.number.toFixed()}</h1>
+                                </div>
+                            )}
+                        </Spring>
                     </div>
                 </div>
             )}
@@ -30,10 +42,18 @@ class Home extends React.Component {
     }
 }
 
-const c1Style ={
+const c2Style ={
     background : 'red',
     color : 'yellow',
     padding : '1.5rem'
+}
+
+const counter = {
+    background : '#333',
+    textAlign : 'center',
+    width : '100px',
+    borderRadius : '50%',
+    margin : '1rem auto'
 }
 
 export default Home;
