@@ -22,7 +22,7 @@ function About() {
                 My goal in life is to become a software engineer whether it be backend, frontend or a full-stack developer. I even plan on making a game.
             </p>
             <p className="p-color">
-                But my dream is to be a jack of all trades and be good at every subject the world may throw at me. I feel like working on multiple and extremely different jobs would fun as hell.
+                But my dream is to be a jack of all trades and be good at every subject the world may throw at me. I feel like working on multiple and extremely different jobs would be fun as hell.
             </p>
             <p className="p-color">
                 My hobbies are to watch baseball, play some videogames and study Japanese when I have the time. 
@@ -30,7 +30,7 @@ function About() {
             <p className="p-color">
                 Anyways, I will give a link to download my resume so you guys can look at it and either give me some info on how to make it better or if you want a template.
             </p>
-            <a href={file} alt="Rosenberg's_Resume">Take a look at my resume!</a>
+            <a href={file} alt="Rosenberg's_Resume" download>Download and take a look at my resume!</a>
             <Spring
             from={{ opacity: 0, marginTop: -500}}
             to={{ opacity: 1, marginTop : 0}}

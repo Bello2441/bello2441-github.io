@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './the_hulk.jpeg';
 import { Spring } from 'react-spring/renderprops';
+import { number } from 'prop-types';
 
 class Home extends React.Component {
     render() {
@@ -30,8 +31,10 @@ class Home extends React.Component {
                             {props => (
                                 <div style={props}>
                                     <h1 style={counter}>{props.number.toFixed()}</h1>
+                                    
                                 </div>
                             )}
+                            
                         </Spring>
                     </div>
                 </div>
@@ -56,6 +59,7 @@ const counter = {
     borderRadius : '50%',
     margin : '1rem auto'
 }
+
 
 export default Home;
 

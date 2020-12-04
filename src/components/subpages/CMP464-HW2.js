@@ -21,7 +21,7 @@ function Project_1() {
         <p>Finally, the information given from the form shows on the table and can be deleted at any time.</p>
         <h6>(This is still a work in progress and needs to be completed)</h6>
         <div>
-        <a href="https://github.com/Bello2441/HW2"> Click here to see my repo for favLinks</a>
+        <a href="https://github.com/Bello2441/HW2" > Click here to see my repo for favLinks</a>
         </div>
         </div>
         </div>

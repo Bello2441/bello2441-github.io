@@ -12,7 +12,6 @@ handleClick = (event) => {
 }
 
 handleNameChange = event => {
-
     console.log("input updated!");
     console.log(event.target);
     this.setState({name: event.target.value});
