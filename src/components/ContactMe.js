@@ -5,11 +5,14 @@ class Contact extends React.Component {
         name : "",
         email : ""
      }
-handleClick = () => {
+handleClick = (event) => {
+    event.preventDefault();
     alert(`Hey, ${this.state.name} your message was sent`);
+
 }
 
 handleNameChange = event => {
+
     console.log("input updated!");
     console.log(event.target);
     this.setState({name: event.target.value});
