@@ -1,5 +1,5 @@
 {
-  "homepage": "https://bello2441.github.io/",
+  "homepage": "https://bello2441.github.io/home",
   "name": "bello2441.github.io",
   "version": "0.1.0",
   "private": true,
@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.0"
+    "gh-pages": "^2.2.0"
   }
 }
