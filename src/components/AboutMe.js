@@ -30,7 +30,7 @@ function About() {
             <p className="p-color">
                 Anyways, I will give a link to download my resume so you guys can look at it and either give me some info on how to make it better or if you want a template.
             </p>
-            <a href={file} alt="Rosenberg's_Resume">Take a look at my resume!</a>
+            <a href={file} alt="Rosenberg's_Resume" download>Download and take a look at my resume!</a>
             <Spring
             from={{ opacity: 0, marginTop: -500}}
             to={{ opacity: 1, marginTop : 0}}
