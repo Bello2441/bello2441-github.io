@@ -14,7 +14,7 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/about">About Me</Link>
@@ -28,7 +28,7 @@ function App() {
           </ul>
         </nav>
         <Switch>
-          <Route path="/home" exact component={Home}/>
+          <Route path="/" exact component={Home}/>
           <Route path="/about" component={AboutMe}/>
           <Route path="/projects" exact component={Projects}/>
           <Route path="/Contact_Me" component={ContactMe}/>

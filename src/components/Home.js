@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './the_hulk.jpeg';
 import { Spring } from 'react-spring/renderprops';
-import { number } from 'prop-types';
 
 class Home extends React.Component {
     render() {
