@@ -30,8 +30,7 @@ class Home extends React.Component {
                         >
                             {props => (
                                 <div style={props}>
-                                    <h1 style={counter}>{props.number.toFixed()}</h1>
-                                    
+                                    <h1 style={counter}>{props.number.toFixed()}</h1>          
                                 </div>
                             )}
                             
@@ -59,7 +58,6 @@ const counter = {
     borderRadius : '50%',
     margin : '1rem auto'
 }
-
 
 export default Home;
 

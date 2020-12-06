@@ -1,5 +1,4 @@
 {
-  "hompage": "http://bello2441.github.io/home",
   "name": "bello2441.github.io",
   "version": "0.1.0",
   "private": true,
@@ -11,13 +10,12 @@
     "radium": "^0.26.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-spring": "^8.0.27"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
