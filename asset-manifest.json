@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb4e02ee.chunk.css",
+    "main.js": "/static/js/main.c215b423.chunk.js",
+    "main.js.map": "/static/js/main.c215b423.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2799a32a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2799a32a.js.map",
+    "static/js/2.a34df929.chunk.js": "/static/js/2.a34df929.chunk.js",
+    "static/js/2.a34df929.chunk.js.map": "/static/js/2.a34df929.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e9c5eed1a1a0ff19612902b753c98701.js": "/precache-manifest.e9c5eed1a1a0ff19612902b753c98701.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.eb4e02ee.chunk.css.map": "/static/css/main.eb4e02ee.chunk.css.map",
+    "static/js/2.a34df929.chunk.js.LICENSE.txt": "/static/js/2.a34df929.chunk.js.LICENSE.txt",
+    "static/media/Booklist.png": "/static/media/Booklist.9c6d600b.png",
+    "static/media/HW2.png": "/static/media/HW2.08fcc532.png",
+    "static/media/Indeed_Resume.pdf": "/static/media/Indeed_Resume.9c7ad383.pdf",
+    "static/media/design-pad.png": "/static/media/design-pad.8a06fda3.png",
+    "static/media/the_hulk.jpeg": "/static/media/the_hulk.a3ae0827.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2799a32a.js",
+    "static/js/2.a34df929.chunk.js",
+    "static/css/main.eb4e02ee.chunk.css",
+    "static/js/main.c215b423.chunk.js"
+  ]
+}
