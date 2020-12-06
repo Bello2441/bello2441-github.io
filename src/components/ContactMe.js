@@ -8,6 +8,7 @@ class Contact extends React.Component {
 handleClick = (event) => {
     event.preventDefault();
     alert(`Hey, ${this.state.name} your message was sent`);
+
 }
 
 handleNameChange = event => {

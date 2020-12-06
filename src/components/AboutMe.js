@@ -22,7 +22,7 @@ function About() {
                 My goal in life is to become a software engineer whether it be backend, frontend or a full-stack developer. I even plan on making a game.
             </p>
             <p className="p-color">
-                But my dream is to be a jack of all trades and be good at every subject the world may throw at me. I feel like working on multiple and extremely different jobs would fun as hell.
+                But my dream is to be a jack of all trades and be good at every subject the world may throw at me. I feel like working on multiple and extremely different jobs would be fun as hell.
             </p>
             <p className="p-color">
                 My hobbies are to watch baseball, play some videogames and study Japanese when I have the time. 
